@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:ICT13580010A"
+	x:Class="ICT13580010A.ICT13580010APage"
+    BackgroundColor="Silver"
+    Padding="10,20,30,40">
+
+    <StackLayout
+        BackgroundColor="Aqua"
+        Orientation="Vertical">   
+        <Label
+            Text="Hello C#"
+            BackgroundColor="Gray"
+            Margin="10"
+            TextColor="Lime"
+            x:Name="firstNameLabel"
+            LineBreakMode="TailTruncation"/>
+        <Label
+            x:Name="lastNameLabel"
+            Text="My name is Jack."
+            BackgroundColor="Fuchsia"
+            Margin="10, 0"/>
+        <Entry
+            x:Name="firstNameEntry"
+            Placeholder="Enter Your Fuckin' Name..."
+            Margin="10"
+            Keyboard="Text"/>
+        <Button
+            x:Name="okButton"
+            Text="OK"
+            BackgroundColor="Red"/>
+        <DatePicker/>
+        <TimePicker/>
+        <Picker
+            x:Name="genderPicker"
+            Title="Select your gender"/>
+        <Label
+            x:Name="valueLabel"/>
+        <Slider
+            x:Name="mySlider"
+            Maximum="100"
+            Minimum="0"
+            Value="50"/>
+        <Stepper
+            x:Name="myStepper"
+            Minimum="0"
+            Maximum="10"
+            Value="4"
+            Increment="2"/>
+        <Switch
+            IsEnabled="true"/>
+        <Image
+            Source="mum.jpg"
+            HeightRequest="100"/>
+        <WebView
+            Source="https://youtube.com"
+            HeightRequest="150"/>
+        
+    </StackLayout>
+    
+</ContentPage>

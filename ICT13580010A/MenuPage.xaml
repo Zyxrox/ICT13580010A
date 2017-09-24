@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580010A.MenuPage"
+    Title="Menu"
+    Icon="icon_menu"
+    BackgroundColor="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <BoxView
+            Color="Teal"/>
+
+        <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="End"
+            Margin="10">
+
+            <Image
+                Source="http://shop.wwe.com/on/demandware.static/-/Sites/default/dw32c23792/images/slot/landing/superstar-landing/Superstar-Category_Superstar_562x408_johncena-2017.png"
+                HeightRequest="100"
+                WidthRequest="100"
+                HorizontalOptions="Start"
+                BackgroundColor="Silver"/>
+
+            <Label
+                Text="John Cena"
+                FontAttributes="Bold"/>
+
+            <Label
+                Text="aswt100@gmail.com"
+                FontAttributes="Bold"/>
+            
+        </StackLayout>
+    
+
+        <BoxView
+            Grid.Row="1"
+            Color="Gray"/>
+
+        <ScrollView
+            Grid.Row="1">
+            <StackLayout
+                Orientation="Vertical"
+                Padding="20">
+
+                <Label
+                    Text="View Layout"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"/>
+                
+                <Button
+                    x:Name="viewButton"
+                    Text="All View"
+                    BackgroundColor="Silver"/>
+
+                <BoxView
+                    Color="White"
+                    HeightRequest="3"/>
+
+                <Button
+                    x:Name="stackButton"
+                    Text="Stack Layout"
+                    BackgroundColor="Silver"/>
+
+                <Button
+                    x:Name="aButton"
+                    Text="Stack Layout"
+                    BackgroundColor="Silver"/>
+                    <Image
+                Source="http://shop.wwe.com/on/demandware.static/-/Sites/default/dw32c23792/images/slot/landing/superstar-landing/Superstar-Category_Superstar_562x408_johncena-2017.png"
+                HeightRequest="100"
+                WidthRequest="100"
+                HorizontalOptions="Start"
+                BackgroundColor="Silver"/>
+                <Button
+                    x:Name="bButton"
+                    Text="Stack Layout"
+                    BackgroundColor="Silver"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+    
+</ContentPage>

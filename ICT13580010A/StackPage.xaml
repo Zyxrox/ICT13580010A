@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580010A.StackPage">
+
+
+
+    <StackLayout
+        Orientation="Vertical"
+        BackgroundColor="Aqua">
+
+        <Button
+            Text="Button"
+            BackgroundColor="Red"
+            HorizontalOptions="Center" 
+            WidthRequest="100"
+            HeightRequest="100"
+        />
+        <Button
+            Text="Button"
+            BackgroundColor="Green"
+            HorizontalOptions="Start"
+        />
+        <Button
+            Text="Button"
+            BackgroundColor="Blue"
+            HorizontalOptions="End"
+        />
+
+
+        <ScrollView
+            Orientation="Horizontal">
+        
+            <StackLayout
+                Orientation="Horizontal"
+                BackgroundColor="Teal"
+                HeightRequest="100">
+
+                <Button
+                    Text="Button"
+                    BackgroundColor="Red"
+                    WidthRequest="100"
+                />
+                <Button
+                    Text="Button"
+                    BackgroundColor="Green"
+                    WidthRequest="100"
+                />
+                <Button
+                    Text="Button"
+                    BackgroundColor="Blue"
+                    WidthRequest="100"
+                />
+                <Button
+                    Text="Button"
+                    BackgroundColor="Yellow"
+                    WidthRequest="100"
+                />
+
+            </StackLayout>
+            
+        </ScrollView>
+
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+        <Entry
+            Placeholder="asdasdasdasd"
+        />
+            
+        
+    </StackLayout>
+
+
+    
+	<ContentPage.Content>
+	</ContentPage.Content>
+</ContentPage>
