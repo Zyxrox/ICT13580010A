@@ -50,7 +50,7 @@
                 Padding="20">
 
                 <Label
-                    Text="View Layout"
+                    Text="Layout View"
                     HorizontalTextAlignment="Center"
                     FontAttributes="Bold"/>
                 
@@ -63,25 +63,56 @@
                     Color="White"
                     HeightRequest="3"/>
 
+                <Label
+                    Text="Layout Setting"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"/>
+                
+
                 <Button
                     x:Name="stackButton"
                     Text="Stack Layout"
                     BackgroundColor="Silver"/>
 
                 <Button
-                    x:Name="aButton"
-                    Text="Stack Layout"
+                    x:Name="gridButton"
+                    Text="Grid Layout"
                     BackgroundColor="Silver"/>
-                    <Image
-                Source="http://shop.wwe.com/on/demandware.static/-/Sites/default/dw32c23792/images/slot/landing/superstar-landing/Superstar-Category_Superstar_562x408_johncena-2017.png"
-                HeightRequest="100"
-                WidthRequest="100"
-                HorizontalOptions="Start"
-                BackgroundColor="Silver"/>
+
                 <Button
-                    x:Name="bButton"
-                    Text="Stack Layout"
+                    x:Name="absoluteButton"
+                    Text="Abosolute Layout"
                     BackgroundColor="Silver"/>
+
+                    <BoxView
+                    Color="White"
+                    HeightRequest="3"/>
+                
+                <Label
+                    Text="Page Setting"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"/>
+                
+                <Button
+                    x:Name="contentButton"
+                    Text="Content"
+                    BackgroundColor="Silver"/>
+
+                <Button
+                    x:Name="navigatorButton"
+                    Text="Navigator Page"
+                    BackgroundColor="Silver"/>
+
+                <Button
+                    x:Name="tabButton"
+                    Text="Tab Page"
+                    BackgroundColor="Silver"/>
+
+                <Button
+                    x:Name="carouselButton"
+                    Text="Carousel Page"
+                    BackgroundColor="Silver"/>
+
 
 
             </StackLayout>
